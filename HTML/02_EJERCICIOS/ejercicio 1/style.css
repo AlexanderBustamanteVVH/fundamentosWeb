@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+
+main{
+    display: flex;
+}
+}
+.container{
+    display: flex;
+    display: inline-block;
+    justify-content: space-between;
+}
+.pasatiempos{
+    display: flex;
+    display: inline-block;
+    margin-top: 0%;
+
+}
+.musica{
+    background-color:hotpink;
+    color: aliceblue;
+    max-width: 350px;
+    max-height: 600px;
+    border-radius: 3%;
+    box-shadow: 0 0 15px 0 hotpink;
+    display: inline-block;
+    padding: 3em;   
+    margin: 1em;
+}
+.Leer{
+    background-color:darkgreen;
+    color: aliceblue;
+    max-width: 350px;
+    max-height: 600px;
+    border-radius: 3%;
+    box-shadow: 0 0 15px 0 darkgreen;
+    display: inline-block;
+    padding: 3em;
+    width: 50%;
+    margin: 1em;
+}
+.juegos{
+    background-color:rgba(153, 39, 4, 0.836);
+    color: aliceblue;
+    max-width: 350px;
+    max-height: 600px;
+    border-radius: 3%;
+    box-shadow: 0 0 15px 0 rgba(153, 39, 4, 0.836);
+    display: inline-block;
+    padding: 3em;
+    width: 50%;
+    margin: 1em;
+}
+
+.tiempo{
+    background-color:rgba(4, 123, 153, 0.815);
+    color: aliceblue;
+    max-width: 220px;
+    max-height: 150px;
+    border-radius: 3%;
+    box-shadow: 0 0 15px 0 rgba(4, 123, 153, 0.815);
+    display: inline-block;
+    padding: 2em;
+    width: 50%;
+    margin: 1em;
+}
+
+body{
+    background-color: darkslateblue;
+}
+
+a {
+    color: aliceblue;
+}
+
+a:visited {
+    color: aliceblue;
+}
+
+a:hover {
+    color: aqua;
+}
+
+a:active {
+    color: aqua;
+}
+
+.titulo{
+    color: aliceblue;
+}

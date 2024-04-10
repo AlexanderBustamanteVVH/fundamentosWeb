@@ -1,0 +1,11 @@
+/* Estilos de pagina de viajes */
+* {
+    outline: solid black;
+}
+
+body { /* Seleccion de body */
+    background-color: aquamarine;
+    font-family: Arial, sans-serif; /* Cambia tipografia */
+    margin: 0; /* Elimina todo el margen por defecto */
+    padding: 0; /* Elimina todo el relleno de los elementos */
+}

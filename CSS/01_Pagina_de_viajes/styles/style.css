@@ -3,9 +3,14 @@
     outline: solid black;
 }
 
+
 body { /* Seleccion de body */
-    background-color: aquamarine;
     font-family: Arial, sans-serif; /* Cambia tipografia */
     margin: 0; /* Elimina todo el margen por defecto */
     padding: 0; /* Elimina todo el relleno de los elementos */
+}
+/* Aca viene el estilo de una clase container */
+.container{
+    width: 80%; /* Establece el ancho del contenedor en un 80% */
+    margin: 0 auto; /* Centra horizontalmente el contenedor */
 }

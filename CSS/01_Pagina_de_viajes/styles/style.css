@@ -14,3 +14,8 @@ body { /* Seleccion de body */
     width: 80%; /* Establece el ancho del contenedor en un 80% */
     margin: 0 auto; /* Centra horizontalmente el contenedor */
 }
+/* estilo de encabezado */
+header{
+    background-color: #333; /* Establece el color del fondo */
+    color: #fff; /* Establece el color del texto */ 
+}

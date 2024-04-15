@@ -49,3 +49,31 @@ section{
     text-align: center; /* Centra el texto del banner */
     padding: 100px 0; /* Define relleno superior e inferior */
 }
+
+#banner h2{
+    font-size: 36px; /* Establece Tamaño de h2 */
+}
+
+#banner p{
+    font-size: 18px; /* Establece Tamaño de p */
+    margin-bottom: 20px; /* Define margen inferior */
+}
+
+.btn{
+    background-color: #007bff; /*Color fondo boton */
+    color: #fff; /* Color del tecto del boton */
+    padding: 10px 20px; /* Relleno del boton */
+    text-decoration: none; /* Quita decoracion de enlace */
+}
+
+/* Estilo cuando pasa puntero sobre el boton */
+.btn:hover{
+    background-color: #0056b3;
+}
+
+footer{
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}

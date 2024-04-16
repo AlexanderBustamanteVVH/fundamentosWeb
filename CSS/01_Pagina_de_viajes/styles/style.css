@@ -72,9 +72,9 @@ section{
 }
 
 .destinos-container{
-    display: flex; /* ordena hoizontalmente los elementos */
-    justify-content: space-between; /* Añade espacio entre los elementos */
-    flex-wrap: wrap;
+    display: flex; /* Utiliza flexbox para alinear elementos */
+    justify-content: space-between; /* Distribuye uniformemente los elementos */
+    flex-wrap: wrap; /* Si los elementos no caben en la misma linea agrega una nueva linea con los elementos */
 }
 
 .destino{

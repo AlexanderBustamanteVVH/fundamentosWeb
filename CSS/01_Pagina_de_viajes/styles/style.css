@@ -1,7 +1,7 @@
-/* Estilos de pagina de viajes */   
+/* Estilos de pagina de viajes
 * {
     outline: solid black;
-}
+} */
 
 body { /* Seleccion de body */
     font-family: Arial, sans-serif; /* Cambia tipografia */
@@ -71,10 +71,34 @@ section{
     background-color: #0056b3; /* Establece color de fondo en hover boton*/
 }
 
+.destinos-container{
+    display: flex; /* ordena hoizontalmente los elementos */
+    justify-content: space-between; /* Añade espacio entre los elementos */
+    flex-wrap: wrap;
+}
+
+.destino{
+    width: calc(33.33% - 20px); /* Establece el ancho de cada destino menos el espacio entre los destinos */
+    margin-bottom: 20px; /* Define eñ margen interior */
+    text-align: center; /* Centra el texto */
+}
+
+.destino img{
+    width: 100%; /* Establece el ancho de la imagen ajustandola al elemento que la contiene */
+    border-radius: 8px; /* Agrega esquinas redondeadas */
+}
+
+.destino h3{
+    margin-top: 10px; /* Agrega distancia superior entre imagen y h3 */
+}
+
+.destino p{
+    margin-top: 10px; /* Agrega distancia superior entre h3 y p */
+}
+
 footer{
     background-color: #333; /* Establece color de fondo de footer */
     color: #fff; /* Establece color de texto de footer */
     text-align: center; /* Centr el texto */
     padding: 20px 0; /* Añade relleno superior e inferior */
 }
-

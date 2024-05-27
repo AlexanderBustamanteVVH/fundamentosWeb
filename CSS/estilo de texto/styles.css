@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.mycloud{
+    justify-content: left;
+    background-color: #000000;
+}
+
+body{
+    padding: 0 20px;
+}
+
+h1{
+    color: #ffffff;
+    font-size: 3em;
+    font-family: cursive;
+    padding-left: 12px;
+    margin: 10px;
+}
+
+span{
+    color: #00ffff;
+}
+
+h2{
+    font-size: 2em;
+    font-family: cursive;
+    background-color: #663399;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 20px;
+    padding: 5px;
+}
+
+h3{
+    font-size: 25px;
+    font-family: cursive;
+    background-color: #9fc5f8;
+    color: #3e437a;
+    text-align: end;
+    margin-top: 1em;
+    text-decoration: underline;
+    padding: 5px 1em;
+}

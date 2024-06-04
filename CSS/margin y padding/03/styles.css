@@ -1,0 +1,30 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+main{
+    width: 1495px;
+    height: 790px;
+    background-color: beige;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.margin{
+    background-color: #d15b19;
+}
+
+.padding{
+    background-color: #459fc7;
+    padding: 100px;
+    border: 100px solid #e5a685;
+    margin: 100px;
+}
+
+.content{
+    height: 200px;
+    width: 500px;
+    background-color: #9fcae0;
+}

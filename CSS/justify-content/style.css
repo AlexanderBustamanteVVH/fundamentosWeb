@@ -1,0 +1,37 @@
+
+body{
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    width: 60vh;
+    height: 100vh;
+    display: flex;
+}
+
+.row{
+    width: 100vh;
+    height: 30vh;
+    display: flex;
+    justify-content: space-around;
+}
+
+#r1{
+    background-color: aquamarine;
+}
+
+#r2{
+    background-color: papayawhip;
+}
+
+#r3{
+    background-color: aliceblue;
+}
+
+.imagen{
+    width: 25vh;
+    height: 25vh;
+    margin-top: 2vh;
+
+}

@@ -1,0 +1,18 @@
+
+body{
+    width: 50vh;
+    margin: auto;
+    align-items: center;
+}
+
+main{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 3vh;
+}
+
+#datos-empresa{
+    background-color: rgba(118, 232, 232, 0.688);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    align-items: center;
+}
+

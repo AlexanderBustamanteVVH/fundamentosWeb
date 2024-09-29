@@ -1,26 +1,50 @@
 
 body{
-    width: 50vh;
+    width: 60vh;
     margin: auto;
+    margin-top: 10vh;
+    justify-content: center;
     align-items: center;
+    background: rgb(1,184,237);
+    background: linear-gradient(184deg, rgba(1,184,237,0.7982842795321253) 0%, rgba(9,9,121,1) 76%, rgba(2,0,36,1) 100%);
+    flex-direction: column;
+    display: flex;
+    background-image: url('https://www.bizlatinhub.com/wp-content/uploads/2018/07/cost-rica-company-formation.jpeg');
+    color: rgba(240, 248, 255, 0.885);
+    text-align: center; 
+}
+
+h1{
+    margin: 0;
+    margin-bottom: 5px;
+    background-color: rgba(21, 16, 52, 0.763);
+    width: 40vh;
+    border-radius: 10px;
 }
 
 main{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 3vh;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    margin: 0;
+    background-color: rgba(21, 16, 52, 0.763);
+    width: 40vh;
+    border-radius: 10px;
 }
 
 button{
-    background-color: aquamarine;
+    background-color: rgba(21, 16, 52, 0.763);
     border: none;
-    border-radius: 50%;
+    border-radius: 10px;
     font-size: 2vh;
     padding: 15px;
+    color: rgba(240, 248, 255, 0.848);
 }
 
 #datos-empresa{
-    background-color: rgba(118, 232, 232, 0.688);
+    background-color: rgba(21, 16, 52, 0.763);
     font-family: Georgia, 'Times New Roman', Times, serif;
-    align-items: center;
+    width: 50vh;
+    text-align: center;
+    border-radius: 10px;
 }
 

@@ -10,6 +10,14 @@ main{
     font-size: 3vh;
 }
 
+button{
+    background-color: aquamarine;
+    border: none;
+    border-radius: 50%;
+    font-size: 2vh;
+    padding: 15px;
+}
+
 #datos-empresa{
     background-color: rgba(118, 232, 232, 0.688);
     font-family: Georgia, 'Times New Roman', Times, serif;
